@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 03:26:12 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjAyOzIwMjQtMDItMDY7IjAxOjQ2OjEzICI7MjI0Mw=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjAyOzIwMjQtMDItMDY7IjAzOjI2OjEyICI7MTsyMzUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calabresa, costela, pernil, ovo, diet" type="String" array="False" size=""/>
+            <declare name="escolha" type="String" array="False" size=""/>
+            <output expression="&quot;As op&#231;&#245;es de lanche s&#227;o: Calabresa; Costela; Pernil; Ovo; Diet.&quot;" newline="True"/>
+            <output expression="&quot;Qual ser&#225; sua escolha?&quot;" newline="True"/>
+            <input variable="escolha"/>
+            <if expression="escolha==&quot;calabresa&quot;">
+                <then>
+                    <output expression="&quot;R$ 20.00&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="escolha==&quot;costela&quot;">
+                        <then>
+                            <output expression="&quot;R$ 23.00&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="escolha==&quot;pernil&quot;">
+                                <then>
+                                    <output expression="&quot;R$ 22.00&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="escolha==&quot;ovo&quot;">
+                                        <then>
+                                            <output expression="&quot;R$ 19.00&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;R$ 24.00&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
