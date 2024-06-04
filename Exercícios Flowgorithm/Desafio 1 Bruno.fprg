@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 09:43:46 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjAyOzIwMjQtMDItMDY7IjA5OjAwOjI5ICI7MjI0OA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjAyOzIwMjQtMDItMDY7IjA5OjQzOjQ2ICI7MTsyMzYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero a.&quot;" newline="True"/>
+            <input variable="(a)"/>
+            <output expression="&quot;Digite o n&#250;mero b.&quot;" newline="True"/>
+            <input variable="(b)"/>
+            <output expression="&quot;Digite o n&#250;mero c.&quot;" newline="True"/>
+            <input variable="(c)"/>
+            <output expression="&quot;Digite o n&#250;mero d.&quot;" newline="True"/>
+            <input variable="(d)"/>
+            <assign variable="soma" expression="a + b + c + d"/>
+            <output expression="&quot;A soma dos valores &#233; igual a: &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
