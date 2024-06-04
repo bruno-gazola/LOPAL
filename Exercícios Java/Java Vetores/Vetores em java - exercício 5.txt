@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+    
+    int i = 0;
+    int numeros[] = new int[10];
+    int produtoPares = 1;
+    int somaImpares = 0;
+    
+    for(i = 0; i < 10; i++){
+    System.out.println("Informe o " + (i + 1) + "° número inteiro");
+    numeros [i] = leia.nextInt();
+        }
+        
+        for(i = 0; i < 10; i++){
+            if(numeros[i] % 2 == 0) {
+                produtoPares *= numeros[i];
+        }   else{
+            somaImpares += numeros[i];
+        }
+        }
+        System.out.println("A multiplicação dos pares é igual a: " + produtoPares);
+        System.out.println("A soma dos ímpares é igual a: " + somaImpares);
+}
+}
